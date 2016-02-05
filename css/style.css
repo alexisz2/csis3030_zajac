@@ -10,6 +10,8 @@ html, body {
 h1, h2, h3, h4, h5, h6, p, form {
 	margin: 0px;
 	padding:0px;
+	font-family:"Trebuchet MS";
+	font-size:16px;
 }
 
 #wrapper {
@@ -255,6 +257,22 @@ h1, h2, h3, h4, h5, h6, p, form {
 	font-family:"Trebuchet MS";
 	font-size:11px;
 	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+p {
+	font-family:"Trebuchet MS";
+	font-size:11px;
+	color: black;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+h1 {
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	color: black;
 	font-weight:normal;
 	text-decoration:none;
 }

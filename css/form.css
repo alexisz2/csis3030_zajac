@@ -20,3 +20,7 @@ button {
 	background-color: purple;
 	width: 15px;
 }
+
+.clearfix {
+	padding-top: 10px;
+}
