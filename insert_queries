@@ -1,0 +1,12 @@
+INSERT INTO categories (category_name) VALUES ('electronics');
+INSERT INTO categories (category_name) VALUES ('clothing');
+
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image) VALUES ('1', 'Fitbit Charge HR Wireless Activity Wristband', '149.95', '15', 'Let your heart be your guide with Charge HR. Monitor heart rate automatically and continuously right on your wrist to accurately track calorie burn, maintain workout intensity, maximize training and optimize health—all without an uncomfortable chest strap.', 'fitbit.jpg');
+
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image) VALUES ('1', 'Apple MacBook Pro 13.3-Inch Laptop with Retina Display', '1299.99', '17', '2.7GHz dual-core Intel Core i5
+Turbo Boost up to 3.1GHz 8GB 1866MHz LPDDR3 memory 128GB PCIe-based flash storage1 Intel Iris Graphics 6100
+Built-in battery (10 hours) 2 Force Touch trackpad', 'mac.png');
+
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image) VALUES ('2', 'The North Face Osito 2 Jacket', '99.00', '12', 'A re-design of The North Faces best-selling fleece, this incredibly soft fleece jacket is updated with a tailored waist, a cozy oversized collar, and comfortable stretch cuffs and hem for a flattering fit.', 'northface.jpg');
+
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image) VALUES ('2', 'Nike Lotus Epic Run Crop', '80.00', '10', 'Dri-FIT™ high-performance polyester fabric wicks perspiration away from your body and towards the surface where it can evaporate.', 'nike.jpg');
