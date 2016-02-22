@@ -107,7 +107,9 @@
     echo "Quanity: ". $row["quantity"] . "<br />";
     echo "Product id: " . $row["id"] . "<br /><br />";
 
-    $sql = "update products set quantity_remaining = quantity_remaining - $quantity where id = $id";
+    $sql = "update products set quantity_remaining = quantity_remaining - " . $row["quantity"] . " where id =" . $row["id"];
+
+    mysqli_query($connection,$sql) or die(mysqli_error($connection));
 
 
   	}
