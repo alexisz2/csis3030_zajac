@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 
-<title>Restaurant Menu</title>
+<title>Ecommerce Site</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/form.css" rel="stylesheet" type="text/css" />
 </head>
