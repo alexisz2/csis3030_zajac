@@ -1,9 +1,9 @@
 <?php
-include("global.php");
-include("header.php");
+  include("global.php");
+  include("header.php");
 ?>
 
-  <?php
+<?php
   //TODO: Should show category name here.
   //$sql = "select * from categories where id =".intval($_GET["category_id"]);
   //$result = mysqli_query($connection,$sql);
@@ -11,9 +11,7 @@ include("header.php");
   //$row = mysqli_fetch_assoc($result);
   //echo "Category Name: " . $row["category_name"] . "<br /><br />" ;
 
-
-
- $sql = "select * from products where id =".intval($_GET["product_id"]);
+  $sql = "select * from products where id =".intval($_GET["product_id"]);
 	
   //run the query, store the result (if any) in $result
   $result = mysqli_query($connection,$sql) or die(mysql_error($connection));
@@ -30,11 +28,11 @@ include("header.php");
 
 <form action="cart_process.php" method="POST">
   Quantity:<br>
-  <input type="text" name="product_<?php echo $row['id']?>" size="3"><br>
+    <input type="text" name="product_<?php echo $row['id']?>" size="3"><br>
 
-  <input type="submit" value="Add to Cart">
-</form>
+    <input type="submit" value="Add to Cart">
+  </form>
 
 <?php
-include("footer.php");
- ?>
+  include("footer.php");
+?>

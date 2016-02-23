@@ -1,9 +1,6 @@
 <?php
-include("global.php");
-
-
-
-include("header.php");
+	include("global.php");
+	include("header.php");
 ?>
 
 <?php
@@ -17,15 +14,10 @@ include("header.php");
   
   while ($row = mysqli_fetch_assoc($result)) {
     echo '<a href="product_list.php?category_id='. $row["id"] . '">'. $row["category_name"] . '</a><br />';
-
-
- 
- 
-  }
-
+	}
 
 ?>
 
 <?php
-include("footer.php");
+	include("footer.php");
 ?>

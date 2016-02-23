@@ -18,12 +18,6 @@
         <ul>
           <li><a href="index.php">Home</a></li>
            <li><a href="category_list.php">Category List</a></li>
-
-         
-
-         
-        
-          
         </ul>
       </div>
     </div>

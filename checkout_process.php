@@ -34,12 +34,8 @@
 		die();
 	}
 
-
-
-	
 	
   include("global.php"); 
-
 
 	
 	//2. Grab the input and clean it!
@@ -59,11 +55,6 @@
   //run the query, store the result (if any) in $result
   //$result = mysqli_query($connection,$sql) or die(mysql_error($connection));
 	
-	
-	
-
-
-
 
 	include("header.php"); 
 
@@ -143,13 +134,10 @@
 
   	}
 
+	jwu_mail("azajac01@wildcats.jwu.edu","Your Purchase",$body);
 
 
-jwu_mail("azajac01@wildcats.jwu.edu","Your Purchase",$body);
-
-
-
- 	include("footer.php");
+	include("footer.php");
 
 
 	?>

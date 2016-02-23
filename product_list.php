@@ -1,19 +1,16 @@
 <?php
-include("global.php");
-include("header.php");
+  include("global.php");
+  include("header.php");
 ?>
 
-  <?php
+<?php
   //TODO: Should show category name here.
   $sql = "select * from categories where id =".intval($_GET["category_id"]);
   $result = mysqli_query($connection,$sql);
 
   $row = mysqli_fetch_assoc($result);
   echo "Category Name: " . $row["category_name"] . "<br /><br />" ;
-
-
-
- $sql = "select * from products where category_id =".intval($_GET["category_id"]);
+  $sql = "select * from products where category_id =".intval($_GET["category_id"]);
 	
   //run the query, store the result (if any) in $result
   $result = mysqli_query($connection,$sql) or die(mysql_error($connection));
@@ -28,5 +25,5 @@ include("header.php");
 ?>
 
 <?php
-include("footer.php");
- ?>
+  include("footer.php");
+?>
